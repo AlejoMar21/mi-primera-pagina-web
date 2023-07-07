@@ -1,50 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Ejemplo de HTML y CSS</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Mi Portafolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, p {
+      margin: 0;
+    }
+
+    section {
+      padding: 40px;
+      margin-bottom: 40px;
+      border-radius: 5px;
+      background-color: #f5f5f5;
+    }
+
+    #inicio {
+      padding: 50px;
+      background-color: #e9f0fb;
+    }
+
+    #habilidades {
+      background-color: #f7f5eb;
+    }
+
+    #experiencia {
+      background-color: #f1f1f1;
+    }
+
+    #proyectos {
+      background-color: #f4f2f6;
+    }
+
+    #contacto {
+      background-color: #e1f5fe;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin: 10px 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+     #inicio img {
+      width: 150%;
+      height: auto;
+      width: 300px; /* Cambia el tamaño de la imagen aquí */
+      border-radius: 50%;
+    }
+    header {
+      background-color: #e9f0fb;
+      padding: 20px;
+      text-align: center;
+    }
+
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Mi Sitio Web</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#acerca">Acerca de</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+  <section id="inicio">
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" alt="Cabecera de Mi Portafolio">
+    <h1>Alejandro Martínez López</h1>
+    <p>Estudiante de ingeniería de sistemas</p>
+  </section>
 
-    <section id="inicio">
-        <h2>¡Bienvenido!</h2>
-        <p>Bienvenido a mi sitio web. Aquí encontrarás información interesante sobre diversos temas.</p>
-    </section>
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>SQL</li>
+      <li>Java</li>
+      <li>Desarrollo web</li>
+      <li>Resolución de problemas</li>
+      <li>Trabajo en equipo</li>
+    </ul>
+  </section>
 
-    <section id="acerca">
-        <h2>Acerca de</h2>
-        <p>Soy un apasionado de la tecnología y me encanta compartir mis conocimientos a través de este sitio web.</p>
-    </section>
+  <section id="experiencia">
+    <h2>Experiencia</h2>
+    <ul>
+      <li>Nombre de la Empresa 1 - Cargo</li>
+      <li>Nombre de la Empresa 2 - Cargo</li>
+      <li>Nombre de la Empresa 3 - Cargo</li>
+    </ul>
+  </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Puedes contactarme a través del siguiente formulario o enviándome un correo electrónico.</p>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+  <section id="proyectos">
+    <h2>Proyectos Destacados</h2>
+    <ul>
+      <li>Proyecto 1</li>
+      <li>Proyecto 2</li>
+      <li>Proyecto 3</li>
+    </ul>
+  </section>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>Derechos de autor &copy; 2023 - Mi Sitio Web</p>
-    </footer>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Teléfono: 3155713135</p>
+    <p>Correo electrónico: alejandromartinezlopezt@gmail.com</p>
+  </section>
 </body>
 </html>
